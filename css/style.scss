@@ -1,0 +1,19 @@
+@import "./scss/design";
+@import "./scss/reset";
+
+$MaxWidth: 1230px;
+
+body {
+  padding-top: 53px;
+  background: $BgColor;
+  font-family: "Roboto", sans-serif;
+  color: $White;
+}
+
+@import "./scss/header";
+
+@import "./scss/sections";
+
+@import "./scss/footer";
+
+@import "./scss/media";

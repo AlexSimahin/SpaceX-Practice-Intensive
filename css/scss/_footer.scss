@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 130px 0;
+}
+
+.footer-nav {
+    margin: 43px 0 28px;
+
+    .item-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+.footer-text {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: $NavSecondaryColor;
+}
+
+.footer-link {
+    color: $NavSecondaryColor;
+}
+
+.button {
+    padding: 20px 86px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: $White;
+    border: 2px solid $White;
+    border-radius: 6px;
+}
